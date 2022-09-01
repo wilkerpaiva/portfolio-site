@@ -4,5 +4,6 @@
 
 # Guia
 
-`cd portfolio-site-main`
+`cd portfolio-site-main`  
+
 `yarn`
