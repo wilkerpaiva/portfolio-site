@@ -7,3 +7,7 @@
 `cd portfolio-site-main`  
 `yarn`  
 `yarn dev`
+
+# Descrição
+
+Site-portfólio desenvolvido com React e Tailwind CSS
