@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-
+import { Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -12,11 +12,11 @@ function Navbar() {
   return (
     <header>
       <nav className='w-full h-[100px] bg-dark drop-shadow-md flex items-center justify-between px-8'>
-        <h1 className=' text-white font-["Rubik"] text-3xl hover:cursor-pointer' > <a href="/">Wilker Paiva</a> </h1>
+        <h1 className=' text-white font-["Rubik"] text-3xl hover:cursor-pointer' > <Link to="/">Wilker Paiva</Link> </h1>
         <ul className='text-white font-["Rubik"] items-center hidden md:flex'>
-          <li className='px-4 hover:text-gray cursor-pointer transition ease-linear text-sm' ><a href="/dev">DESENVOLVIMENTO FRONTEND</a></li>
-          <li className='px-4 hover:text-gray cursor-pointer transition ease-linear text-sm' > <a href="/video">VÍDEO & MOTION</a></li>
-          <li className='p-2 ml-4 bg-about-color rounded-lg hover:bg-about-color-hover cursor-pointer transition ease-linear text-sm' > <a href="/about">SOBRE MIM</a></li>
+          <li className='px-4 hover:text-gray cursor-pointer transition ease-linear text-sm' ><Link to="/dev">DESENVOLVIMENTO FRONTEND</Link></li>
+          <li className='px-4 hover:text-gray cursor-pointer transition ease-linear text-sm' > <Link to="/video">VÍDEO & MOTION</Link></li>
+          <li className='p-2 ml-4 bg-about-color rounded-lg hover:bg-about-color-hover cursor-pointer transition ease-linear text-sm' > <Link to="/about">SOBRE MIM</Link></li>
         </ul>
 
         <div onClick={handleClick} className='md:hidden z-50'>
