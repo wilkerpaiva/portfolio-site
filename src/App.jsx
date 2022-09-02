@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar"
 import Home from './pages/Home'
 import About from './pages/About'
 import Dev from "./pages/Dev"
-import Video from "./pages/video"
+import Video from "./pages/Video"
 
 function App() {
   return (
