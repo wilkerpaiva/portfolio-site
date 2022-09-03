@@ -13,7 +13,7 @@ export default {
                 "id": "2",
                 "role": "MOTION DESIGNER",
                 "title": "LIQUID TEXT",
-                "img": "./assets/liquid.png",
+                "img": "./assets/liquid.0ad7e00a.png",
                 "description":"Efeito de texto liquido utilizando recursos nativos do Adobe After Effects CC.",
             },
         ]
