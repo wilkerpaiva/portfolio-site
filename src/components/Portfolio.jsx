@@ -3,7 +3,6 @@ import React from 'react'
 
 function Portfolio(props) {
     const data = props.dataPortfolio
-    console.log(data.img)
 
   return (
     <section className='flex justify-center my-5 px-5'>
