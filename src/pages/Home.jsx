@@ -53,7 +53,7 @@ function Home() {
             >
               Sou um editor audiovisual, motion designer 
               e programador frontend, que adora transformar 
-              ideias em realidade.|
+              ideias em realidade.
             </motion.p>
           
           </motion.div>
