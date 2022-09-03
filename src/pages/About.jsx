@@ -22,20 +22,20 @@ function About() {
             <div className=' my-9'>
               <p className='font-["Rubik"] text-gray text-[12px] text-right mb-1'>HABILIDADES FRONTEND</p>
               <ul className='flex justify-end'>
-                <li className='w-10 m-2'><img src={images.htmlIcon} alt="html icon" /></li>
-                <li className='w-10 m-2'><img src={images.cssIcon} alt="css icon" /></li>
-                <li className='w-10 m-2'><img src={images.javascriptIcon} alt="javascript icon" /></li>
-                <li className='w-10 m-2'><img src={images.nodeIcon} alt="node icon" /></li>
-                <li className='w-10 m-2'><img src={images.reactIcon} alt="react icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.htmlIcon} alt="html icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.cssIcon} alt="css icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.javascriptIcon} alt="javascript icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.nodeIcon} alt="node icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.reactIcon} alt="react icon" /></li>
               </ul>
             </div>
             <div>
               <p className='font-["Rubik"] text-gray text-[12px] text-right mb-1'>HABILIDADES EM VíDEO E MOTION</p>
               <ul className='flex justify-end'>
-                <li className='w-10 m-2'><img src={images.aeIcon} alt="html icon" /></li>
-                <li className='w-10 m-2'><img src={images.prIcon} alt="css icon" /></li>
-                <li className='w-10 m-2'><img src={images.psIcon} alt="javascript icon" /></li>
-                <li className='w-10 m-2'><img src={images.ilIcon} alt="node icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.aeIcon} alt="html icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.prIcon} alt="css icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.psIcon} alt="javascript icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.ilIcon} alt="node icon" /></li>
               </ul>
             </div>
           </div>
@@ -45,21 +45,23 @@ function About() {
             <p className='font-["Lato"] italic text-[11px] text-gray text-center mt-2'>
               Um guerreiro do alimento! Caso queira conversar sobre
               tecnologia e arte manda um email ou uma DM =).
-              @wilker_cpaiva
             </p>
+            <a className='font-["Lato"] italic text-[11px] text-white hover:text-gray transition ease-linear text-center' href="https://www.instagram.com/wilker_cpaiva/" target="_blank" rel="noopener noreferrer">@wilker_cpaiva</a>
             <div className='flex justify-between mt-4'>
               <div className='flex flex-col'>
                 <p className='font-["Rubik"] text-gray text-[14px] text-left mt-3 not-italic font-bold'>EXPERIÊNCIA</p>
-                <p className='font-["Lato"] text-white text-[12px] text-left not-italic'>
-                  Baixar Currículo <br />
+                <a target="_blank" href='http://lattes.cnpq.br/0939305741520101' className='font-["Lato"] text-white text-[12px] text-left not-italic hover:text-gray transition ease-linear'>
                   Currículo Lattes
-                </p>
+                </a>
+                <a target="_blank" href='http://lattes.cnpq.br/0939305741520101' className='font-["Lato"] text-white text-[12px] text-left not-italic hover:text-gray transition ease-linear'>
+                  Currículo Vitae
+                </a>
               </div>
               <div className='flex flex-col'>
                 <p className='font-["Rubik"] text-gray text-[14px] text-right mt-3 not-italic font-bold'>CONTATO</p>
-                <p className='font-["Lato"] text-white text-[12px] text-left not-italic'>
+                <a href='mailto:wilkerpaiva1@yahoo.com' className='font-["Lato"] text-white text-[12px] text-left not-italic hover:text-gray transition ease-linear'>
                     wilkerpaiva1@yahoo.com
-                </p>
+                </a>
                 </div>
             </div>
           </div>

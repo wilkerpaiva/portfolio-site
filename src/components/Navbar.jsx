@@ -24,9 +24,9 @@ function Navbar() {
         </div>
         
         <ul className={!nav ? 'hidden' : ' fixed top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center z-40'}>
-          <li className='text-white py-6 hover:text-gray cursor-pointer transition ease-linear'><a href="/dev">DESENVOLVIMENTO FRONTEND</a></li>
-          <li className='text-white py-6 hover:text-gray cursor-pointer transition ease-linear'><a href="/video">VÍDEO & MOTION</a></li>
-          <li className='text-white py-6 hover:text-gray cursor-pointer transition ease-linear'><a href="/about">SOBRE MIM</a></li>
+          <li className='text-white py-6 hover:text-gray cursor-pointer transition ease-linear'><Link to="/dev">DESENVOLVIMENTO FRONTEND</Link></li>
+          <li className='text-white py-6 hover:text-gray cursor-pointer transition ease-linear'><Link to="/video">VÍDEO & MOTION</Link></li>
+          <li className='text-white py-6 hover:text-gray cursor-pointer transition ease-linear'><Link to="/about">SOBRE MIM</Link></li>
         </ul>
 
     </nav>
