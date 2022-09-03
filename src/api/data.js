@@ -6,7 +6,7 @@ export default {
                 "id": "1",
                 "role": "FRONTEND DEVELOPER",
                 "title": "NETFLIX CLONE",
-                "img": "./assets/netflix-clone-home.png",
+                "img": "./assets/netflix-clone-home.57db275d.png",
                 "description":"Neste projeto reconstruo a interface (UI/UX) da Netflix utilizando React e Tailwind CSS. O clone reproduz todas as funcionalidades da home original.",
             },
             {
