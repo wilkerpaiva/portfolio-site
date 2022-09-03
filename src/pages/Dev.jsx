@@ -2,11 +2,12 @@ import React from 'react'
 import { images } from '../constants'
 import data from '../api/data'
 import Portfolio from '../components/Portfolio'
+import AnimatedPage from '../components/AnimatedPage'
 
 function Dev() {
   const dataArray = data.data.portfolio
   return (
-    <>
+    <AnimatedPage>
       <section>
         <h1 className='text-white md:text-9xl font-["Rubik"] ml-10 xsm:text-3xl xxsm:text-[24px] xxsm:mt-5'>PROJETOS FRONTEND</h1>
         <img src={images.arrow} alt="Seta" className='ml-80 xsm:ml-48 xxsm:ml-40 xxsm:mt-3'/>
@@ -24,7 +25,7 @@ function Dev() {
         item.role === "FRONTEND DEVELOPER" && <Portfolio key={item.id} dataPortfolio={item}/>
       )}
       
-    </>
+    </AnimatedPage>
   )
 }
 

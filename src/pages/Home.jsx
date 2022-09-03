@@ -1,5 +1,13 @@
 import React from 'react'
 import { images } from '../constants'
+import { motion } from 'framer-motion'
+
+const visible = { opacity: 1, y: 0, transition: { duration: 0.5 } };
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 10 },
+  visible,
+};
 
 function Home() {
   return (
@@ -23,26 +31,61 @@ function Home() {
         </div>
         
         <div className='w-full h-fit -mt-96 flex justify-center items-center flex-col'>
-          <div className='flex flex-col justify-center items-center '>
-            <img className='w-[300px] rounded-full bg-about-color drop-shadow-2xl md:w-[600px] -z-10' src={images.heroImg} alt="Hero image" />
-            <p className=' absolute text-white w-[300px] md:w-[580px] text-center font-bold text-sm md:text-3xl font-["Lato"] mt-48 md:mt-96 -z-10'>
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            exit={{ opacity: 0, transition: { duration: 1 } }}
+            variants={{ visible: { transition: { staggerChildren: 0.3 } } }} 
+            className='flex flex-col justify-center items-center '
+          >
+            
+            <motion.img
+              variants={{
+                hidden: { opacity: 0, y: -20 },
+                visible
+              }}
+              className='w-[300px] rounded-full bg-about-color drop-shadow-2xl md:w-[600px] -z-10' src={images.heroImg} alt="Hero image" 
+            />
+
+            <motion.p
+            variants={itemVariants}
+              className=' absolute text-white w-[300px] md:w-[580px] text-center font-bold text-sm md:text-3xl font-["Lato"] mt-48 md:mt-96 -z-10'
+            >
               Sou um editor audiovisual, motion designer 
               e programador frontend, que adora transformar 
               ideias em realidade.|
-            </p>
-          </div>
-          <div className='flex flex-col items-center justify-center py-3 mt-10'>
-            <img src={images.arrow} alt="seta"  className='text-center -mt-4 mb-4 md:mt-0'/>
-            <p className='font-["Roboto"] text-gray w-[300px] md:w-[590px] text-[14px] md:text-[24px] text-center text-size'>
+            </motion.p>
+          
+          </motion.div>
+
+
+          <motion.div 
+            initial="hidden"
+            animate="visible"
+            exit={{ opacity: 0, transition: { duration: 1 } }}
+            variants={{ visible: { transition: { staggerChildren: 0.3 } } }} 
+            className='flex flex-col items-center justify-center py-3 mt-10'
+          >
+            <motion.img 
+              variants={itemVariants}
+              src={images.arrow} alt="seta"  className='text-center -mt-4 mb-4 md:mt-0'
+            />
+            <motion.p 
+            variants={itemVariants}
+            className='font-["Roboto"] text-gray w-[300px] md:w-[590px] text-[14px] md:text-[24px] text-center text-size'
+            >
               Faço edições, motion designer e programo websites.
               Atualmente você pode me encontrar nessas redes:
-            </p>
-            <ul className='flex w-40 mt-4 bg-about-color p-4 rounded-full'>
+            </motion.p>
+            <motion.ul
+              variants={itemVariants} 
+              className='flex w-40 mt-4 bg-about-color p-4 rounded-full'
+            >
               <li className='px-2 w-40'><a target='_blank' href="https://www.linkedin.com/in/wilker-paiva-0855b1215"><img src={images.linkedinIcon} alt="Icone Linkedin" /></a></li>
               <li className='px-2 w-40'><a target='_blank' href="https://www.behance.net/wilkerpaiv9934"><img src={images.behanceIcon} alt="Icone Behance" /></a></li>
               <li className='px-2 w-40'><a target='_blank' href="https://github.com/wilkerpaiva"><img src={images.githubIcon} alt="Icone Github" /></a></li>
-            </ul>
-          </div>
+            </motion.ul>
+          </motion.div>
         </div>
     </>
   )

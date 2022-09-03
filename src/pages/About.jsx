@@ -1,9 +1,10 @@
 import React from 'react'
+import AnimatedPage from '../components/AnimatedPage'
 import { images } from '../constants'
 
 function About() {
   return (
-    <>
+    <AnimatedPage>
       <div className='flex justify-center mt-20'>
         <div className='md:w-[731px] md:flex md:flex-row md:justify-between md:items-start xxsm:flex xxsm:flex-col-reverse xxsm:items-center'>
           <div className='flex flex-col md:w-[386px] xxsm:w-[279px] xxsm:mt-10 md:mt-0'>
@@ -64,7 +65,7 @@ function About() {
           </div>
         </div>
       </div>
-    </>
+    </AnimatedPage>
   )
 }
 
