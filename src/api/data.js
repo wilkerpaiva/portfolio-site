@@ -1,3 +1,5 @@
+import { images } from '../constants'
+
 export default {
     "success": true,
     "data": {
@@ -6,14 +8,14 @@ export default {
                 "id": "1",
                 "role": "FRONTEND DEVELOPER",
                 "title": "NETFLIX CLONE",
-                "img": "./assets/netflix-clone-home.57db275d.png",
+                "img": images.netflixCloneImg,
                 "description":"Neste projeto reconstruo a interface (UI/UX) da Netflix utilizando React e Tailwind CSS. O clone reproduz todas as funcionalidades da home original.",
             },
             {
                 "id": "2",
                 "role": "MOTION DESIGNER",
                 "title": "LIQUID TEXT",
-                "img": "./assets/liquid.0ad7e00a.png",
+                "img": images.liquidBanner,
                 "description":"Efeito de texto liquido utilizando recursos nativos do Adobe After Effects CC.",
             },
         ]
