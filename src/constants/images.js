@@ -21,6 +21,13 @@ import vimeoImg from '../assets/vimeo.png'
 import arrow from '../assets/arrow.svg'
 import liquidBanner from '../assets/liquid.png'
 import aboutme from '../assets/aboutme.jpg'
+import tailwind from '../assets/tailwind.svg'
+import reactRouterIcon from '../assets/react-router-dom.svg'
+import davinciIcon from '../assets/davinciIcon.svg'
+import nnlcBanner from '../assets/nadanolugarcertoBanner.jpg'
+import irTransition from '../assets/irTrasition.png'
+import vescBanner from '../assets/vescBanner.png'
+import portfolioBanner from '../assets/portfolioBanner.png'
 
 
 export default {
@@ -47,4 +54,11 @@ export default {
     arrow,
     liquidBanner,
     aboutme,
+    tailwind,
+    reactRouterIcon,
+    davinciIcon,
+    nnlcBanner,
+    irTransition,
+    vescBanner,
+    portfolioBanner,
 }

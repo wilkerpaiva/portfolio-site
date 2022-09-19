@@ -51,7 +51,7 @@ function Home() {
             variants={itemVariants}
               className=' absolute text-white w-[300px] md:w-[580px] text-center font-bold text-sm md:text-3xl font-["Lato"] mt-48 md:mt-96 -z-10'
             >
-              Sou um editor audiovisual, motion designer 
+              Sou um editor de vídeo, motion designer 
               e programador frontend, que adora transformar 
               ideias em realidade.
             </motion.p>
@@ -74,7 +74,7 @@ function Home() {
             variants={itemVariants}
             className='font-["Roboto"] text-gray w-[300px] md:w-[590px] text-[14px] md:text-[24px] text-center text-size'
             >
-              Faço edições, motion designer e programo websites.
+              Faço edições de vídeo, motion design e desenvolvo websites dinâmicos.
               Atualmente você pode me encontrar nessas redes:
             </motion.p>
             <motion.ul

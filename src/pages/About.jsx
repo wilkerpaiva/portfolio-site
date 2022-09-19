@@ -22,20 +22,25 @@ function About() {
             <div className=' my-9'>
               <p className='font-["Rubik"] text-gray text-[12px] text-right mb-1'>HABILIDADES FRONTEND</p>
               <ul className='flex justify-end'>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.htmlIcon} alt="html icon" /></li>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.cssIcon} alt="css icon" /></li>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.javascriptIcon} alt="javascript icon" /></li>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.nodeIcon} alt="node icon" /></li>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.reactIcon} alt="react icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.htmlIcon} alt="html icon" title='HTML 5'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.cssIcon} alt="css icon" title='CSS 3'/></li>
+                <li className='w-10 m-2 translate-y-1 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.tailwind} alt="tailwind icon" title='TailwindCSS'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.sassIcon} alt="sass icon" title='SASS'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.javascriptIcon} alt="javascript icon" title='JavaScript'/></li>
+                <li className='w-8  m-2 translate-y-1 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.typescriptIcon} alt="typescript icon" title='Typescript'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.nodeIcon} alt="node icon" title='NodeJS'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.reactIcon} alt="react icon" title='ReactJS'/></li>
+                <li className='w-10 m-2 translate-y-1 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.reactRouterIcon} alt="react router dom icon" title='React Router Dom v6'/></li>
               </ul>
             </div>
             <div>
               <p className='font-["Rubik"] text-gray text-[12px] text-right mb-1'>HABILIDADES EM VíDEO E MOTION</p>
               <ul className='flex justify-end'>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.aeIcon} alt="html icon" /></li>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.prIcon} alt="css icon" /></li>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.psIcon} alt="javascript icon" /></li>
-                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.ilIcon} alt="node icon" /></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.aeIcon} alt="After Effects icon" title='Adobe After Effects CC'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.prIcon} alt="Premiere icon" title='Adobe Premiere CC'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.psIcon} alt="Photoshop icon" title='Adobe Photoshop CC'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.ilIcon} alt="Ilustrator icon" title='Adobe Ilustrator CC'/></li>
+                <li className='w-10 m-2 hover:-translate-y-3 transition ease-in-out duration-500'><img src={images.davinciIcon} alt="Davinci Resolve icon" title='Davinci Resolve 18'/></li>
               </ul>
             </div>
           </div>
@@ -53,7 +58,7 @@ function About() {
                 <a target="_blank" href='http://lattes.cnpq.br/0939305741520101' className='font-["Lato"] text-white text-[12px] text-left not-italic hover:text-gray transition ease-linear'>
                   Currículo Lattes
                 </a>
-                <a target="_blank" href='http://lattes.cnpq.br/0939305741520101' className='font-["Lato"] text-white text-[12px] text-left not-italic hover:text-gray transition ease-linear'>
+                <a target="_blank" href='https://drive.google.com/file/d/1NauwwSnXXtl9xzOBT1iRe-4pgmWHnXNE/view?usp=sharing' className='font-["Lato"] text-white text-[12px] text-left not-italic hover:text-gray transition ease-linear'>
                   Currículo Vitae
                 </a>
               </div>
