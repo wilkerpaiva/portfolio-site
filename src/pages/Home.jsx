@@ -82,7 +82,7 @@ function Home() {
               className='flex w-40 mt-4 bg-about-color p-4 rounded-full'
             >
               <li className='px-2 w-40'><a target='_blank' href="https://www.linkedin.com/in/wilker-paiva-0855b1215"><img src={images.linkedinIcon} alt="Icone Linkedin" /></a></li>
-              <li className='px-2 w-40'><a target='_blank' href="https://www.behance.net/wilkerpaiv9934"><img src={images.behanceIcon} alt="Icone Behance" /></a></li>
+              <li className='px-2 w-40'><a target='_blank' href="https://www.behance.net/wilker_paiva"><img src={images.behanceIcon} alt="Icone Behance" /></a></li>
               <li className='px-2 w-40'><a target='_blank' href="https://github.com/wilkerpaiva"><img src={images.githubIcon} alt="Icone Github" /></a></li>
             </motion.ul>
           </motion.div>
