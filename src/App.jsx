@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Dev from "./pages/Dev"
 import Video from "./pages/Video"
+import Mylinks from "./pages/Mylinks"
 import ErrorPage from "./pages/ErrorPage"
 import Layout from "./components/Layout"
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/about' element={<About />}/>
           </Route>
           <Route path='*' element={<ErrorPage />}/>
+          <Route path='/mylinks' element={<Mylinks />}/>
         </Routes>
       </AnimatePresence>
     </>
